@@ -23,7 +23,7 @@ def validate_html(html):
         else:
             if len(foo) == 0:
                 return False
-            if foo[-1][:(-len(foo[-1])) +1:-1] == xs[i][:(-len(foo[-1])) +1:-1]:
+            if foo[-1][:(-len(foo[-1])) + 1:-1] == xs[i][:(-len(foo[-1])) + 1:-1]:
                 foo.pop()
             else:
                 return False
